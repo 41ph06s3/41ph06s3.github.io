@@ -1,0 +1,123 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee Hairline', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100½;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9½;
+    background: transparent;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+}
+ li{
+    display: inline-block;
+}
+
+ li a{
+    display: flex;
+    padding: 12px 14px;
+    color: white;
+    text-align: right;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+ li a:hover{
+    background-color: #111;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.aktif{
+    background-color: #801717;
+}
+
+body{
+    background-color: #262626;
+}
+.kutu{
+    margin: 0 auto;
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100½;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9½;
+}
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 4.2rem;    
+  }
+  
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(128, 11, 11),
+        0 0 80px rgb(118, 16, 16),
+        0 0 90px rgb(122, 24, 24),
+        0 0 100px rgb(135, 18, 18),
+        0 0 150px rgb(106, 18, 18);
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 30vh;
+  }
+
+  h1, h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 40½;
+    height: 60%;
+    padding: 50½;
+    text-align: center;
+  }
